@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap');
+/*Google font*/
+/*font-family: 'PT Sans', sans-serif;*/
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+ul,ol{
+    list-style: none;
+}
+a,a:hover{
+    text-decoration: none;
+}
+img{
+    border: none;
+    vertical-align: middle;
+}
+h1,h2,h3,h4,h5,h6,a,p,ul,ol,li,img,.navbar{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+.ml-10{
+    margin-left: 10px;
+}
+.pl-38{
+    padding-left: 38px;
+}
+.pr-35{
+    padding-right: 35px;
+}
+
+/*Common Heading*/
+
+.header{
+    /*position: relative;*/     
+    background: #fcdb00;    
+}
+.header .navbar{
+    padding: 60px 0px 60px;
+}
+.header .tiny{
+    color: #010101;
+    font-size: 30px;
+    font-weight: 700;
+}
+.header .nav-item{}
+.header .nav-item .nav-link{
+    color: #010101;
+    font-size: 22px;
+    font-weight: bold;
+    padding-left: 70px;
+}
+.slider{
+    padding-top: 163px;
+}
+.inspired{}
+.inspired h1{
+    color: #010101;
+    font-size: 32px;
+    font-weight: 700;
+    padding-top: 73px;
+    padding-bottom: 23px;
+}
+.inspired h3{
+    color: #313841;
+    font-size: 20px;
+    font-weight: 300;
+    padding-bottom: 23px;
+}
+.inspired p{
+    color: #555555;
+    font-size: 16px;
+    padding-bottom: 40px;
+    font-weight: 300;
+}
+.inspired a{
+    color: #010101;
+}
+.circle3{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    padding: 45px 0px;
+}
+.circle3 span:first-child{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 7px;
+    background-color: #ffffff;
+}
+.circle3 span:nth-child(2){
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 7px;
+    background-color: #feed80;
+}
+.circle3 span:last-child{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 7px;
+    background-color: #feed80;
+}
+
+/*HEADER CSS END*/
+
+.features{
+    padding-bottom: 80px;
+}
+.features .featureshead h4{
+    font-size: 32px;
+    font-weight: 700;
+    color: #010101;
+    padding-top: 120px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+}
+.features .featureshead p{
+    font-size: 20px;
+    font-weight: 300;
+    color: #313841;
+    padding-top: 20px;
+    padding-bottom: 85px;
+}
+
+.features2 h4{
+    font-size: 22px;
+    color: #010101;
+    font-weight: 300;
+}
+.features2 p{
+    font-size: 16px;
+    color: #ababab;
+    font-weight: 300;
+}
+
+/*FEATURES CSS END*/
+
+
+.subcrible{
+    background: #010101;
+}
+
+.subcrible .subcrible2 h3{
+    font-size: 32px;
+    color: #fcdb00;
+    font-weight: 700;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+.subcrible2 p{
+    font-size: 20px;
+    color: #7d7d7d;
+    font-weight: 300;
+    padding-bottom: 40px;
+}
+.subcrible .form-control{
+    width: 580px;
+}
+.form{
+    padding-bottom: 80px;
+}
+.form .form2{
+    height: 50px;
+    width: 52%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 24px 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.form .btn{
+    height: 50px;
+    margin-left: 20px;
+    margin-bottom: 4px;
+    padding-left: 36px;
+    padding-right: 36px;
+    color: #010101;
+    font-weight: 700;
+}
+.subicon{
+    padding-bottom: 135px;
+}
+.subicon ul li{
+    display: inline-block;
+    color: #fcdb00;
+}
+
+
+.footer{
+    padding-bottom: 140px;
+}
+.footer p{
+    font-size: 16px;
+    color: #fff;
+
+}
+
+
+
